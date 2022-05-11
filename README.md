@@ -1,6 +1,6 @@
 # MmmMac
-like 1
+like 2
 
-reverse sting many times
+test function should work, but throw Error at the end -_-
 
 **cOOOOOOOOOOOl**
