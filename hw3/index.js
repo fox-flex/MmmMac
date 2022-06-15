@@ -86,8 +86,8 @@ function buildCoolBox(box) {
                 // pos1 = 0; pos2 = 0; pos3 = 0; pos4 = 0;
                 dragHandler(box);
             }
-        // } else if (ev.button === 2) { // right click
-        } if (ev.ctrlKey) { // for debug on touchpad
+        } else if (ev.button === 2) { // right click
+        // } if (ev.ctrlKey) { // for debug on touchpad
             changeColorHandler(box);
         }
     });
