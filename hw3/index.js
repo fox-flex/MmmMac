@@ -4,7 +4,7 @@ const boxContainer = document.querySelector('.box-container');
 const container = document.getElementsByClassName('box-container')[0]
 
 let BOX_ID = 2;
-window.addEventListener("contextmenu", e => e.preventDefault());
+window.addEventListener('contextmenu', e => e.preventDefault());
 
 [...boxes].forEach(box => {
     addDrag(box);
